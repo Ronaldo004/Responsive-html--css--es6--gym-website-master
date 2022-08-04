@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylereg.css">
+    <link rel="stylesheet" href="../media.css">
+</head>
+
+<body>
+    <header class="head">
+        <h2>REGISTRATION FORM</h2>
+    </header>
+    <div class="main">
+        <div class="form">
+            <div id="er1"></div>
+            <label>NAME</label> <input type="text" name="name" id="rname" maxlength="25">
+            <label>PHONE NO</label> <input type="number" name="phone no" id="rphno"  maxlength="25">
+            <label>Email</label> <input type="email" name="email" id="remail"  maxlength="26">
+            <label>AGE</label> <input type="number" name="age" id="rage"  maxlength="2">
+            <div class="gender"> <label>Gender</label>
+                <input type="radio" name="gen"  value="male"   id="gen1">
+                <label>male</label>
+                <input type="radio" name="gen" value="female"  id="gen2" >
+                <label>female</label>
+            </div>
+            <div class="button">
+            <button id="submit" onclick="submit()">Submit</button>
+            <button id="back" onclick="back()">BACK</button>
+        </div>
+        </div>
+
+    </div>
+   
+</body>
+<script src="app2.js"></script>
+
+</html>

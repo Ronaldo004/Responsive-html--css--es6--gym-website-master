@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    
+}
+
+.main {
+    width: 100%;
+    display: flex;
+   
+    height: 80vh;
+    justify-content: center;
+    background-image: url("../images/OIP.jpg");
+    background-repeat: no-repeat;
+   
+    background-size: 100% 80vh;
+
+}
+
+.form {
+    width: 70vw;
+   
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.gender {
+    width: 100%;
+    margin: 3px 0px;
+
+}
+
+.gender label {
+    padding: 0px 8px;
+
+}
+.form label{
+    color: wheat;
+}
+.form input{
+   padding: 6px 0px;
+   margin: 6px 0px;
+   border-top: none ;
+   border-bottom:1px solid gainsboro ;
+   border-left: none;
+   border-right:none ;
+}
+.button{
+    width: 100%;
+   
+    height: 10vh;
+}
+#submit{
+    width: 13%;
+    height: 4.5vh;
+    
+    
+}
+#back{
+    width: 14%;
+    height: 4.5vh;
+    margin: 3px 0px;
+    margin-left: 10px;
+}
+#submit:hover{
+    color: beige;
+    background-color: black;
+}
+#back:hover{
+    color: beige;
+    background-color: black;
+}
+#er1{
+    
+    height: 3vh;
+    width: 50%;
+    color: brown;
+    
+    font-size:larger;
+    font-weight: bold;
+    
+}

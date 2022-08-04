@@ -1,0 +1,198 @@
+@media (min-width:400px) and (max-width:739px) {
+    .main1{
+       justify-content: center;
+       justify-content: left;
+       justify-content: space-around;
+        
+    }
+    .ex1{
+        width: 50vw;
+        height: 50vh;
+
+    }
+    .ex1 img{
+        width: 50vw;
+        height: 50vh;
+    }
+    .main2{
+        flex-direction: column;
+        height: 150vh;
+       
+        position: relative;
+        
+    }
+    #submit{
+        width: 20%;
+        height: 4.5vh;
+        
+        
+    }
+    #back{
+        width: 20%;
+        height: 4.5vh;
+
+    }
+    .img2{
+    
+        height: 100vh;
+        position: relative;
+        width: 100vw;
+        
+    }
+    .img2 img{
+        width: 100vw;
+       
+    }
+    .foot1{
+        position: relative;
+        bottom: 25px;
+        
+    }
+    .instruction{
+       
+            position: relative;
+            top:1px;
+            width: 100vw;
+          height: 100vh;
+          
+          background-size: 60vw 60vh;
+          background-repeat: no-repeat;
+          background-position: center;
+          
+          
+        
+    }
+    
+    .instruction>p{
+        
+        margin-top: -5rem;
+        width: 70vw;
+        height: 50vh;
+        
+    }
+    
+
+    
+}
+@media (min-width:200px) and (max-width:399px) {
+    .main1{
+       justify-content: center;
+       justify-content: left;
+       justify-content: space-around;
+        
+    }
+    .instruction>p{
+      
+        width: 100vw;
+        
+       
+        
+    }
+    .nav-bar1>h1{
+        font-size: 1rem;
+
+    }
+    .instruction>h2{
+       
+        width: 100vw;
+    
+    }
+    .instruction{
+        margin-top: 1rem;
+       
+    }
+    .para1 p{
+        font-size: small;
+    }
+    .ex1{
+        width: 50vw;
+        height: 50vh;
+
+    }
+    .ex1 img{
+        width: 50vw;
+        height: 50vh;
+    }
+    .main2{
+        flex-direction: column;
+        height: 150vh;
+       
+        position: relative;
+        
+    }
+    #submit{
+        width: 35%;
+        height: 4.5vh;
+        
+        
+    }
+    #back{
+        width: 35%;
+        height: 4.5vh;
+
+    }
+    .img2{
+    
+        height: 100vh;
+        position: relative;
+        width: 100vw;
+        
+    }
+    .img2 img{
+        width: 100vw;
+       
+    }
+    .foot1{
+        position: relative;
+        bottom: 25px;
+        
+    }
+    .cart4 button{
+        width: 50px;
+    }
+    .shopping{
+        margin-top: 5rem;
+    
+    }
+    
+}
+@media only screen and (max-width:1099px) {
+
+   
+    .list1{
+    flex-direction: column;
+    align-content: center;
+    border: solid;
+    
+}
+
+.list1 li{
+   
+    width:fit-content;
+    position: relative;
+    right: 90px;
+    
+}
+.burger{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.line{
+    display: block;
+}
+
+.v-class-resp li{
+    opacity: 0;
+    
+}
+
+.h-nav-resp{
+    height:72px ;
+    
+  
+}
+
+}
